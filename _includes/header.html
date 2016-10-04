@@ -5,8 +5,8 @@
 			<!-- Navbar Brand -->
 			<div class="navbar-brand">
 				<a href="{{ site.baseurl }}" class="logo">
-					<img src="{{ site.baseurl }}/img/logo.png" width="150" alt="" class="hidden-xs" />
-					<img src="{{ site.baseurl }}/img/logo.png" width="150" alt="" class="visible-xs" />
+					<img src="{{ site.baseurl }}/img/MOFIE-logo.png" width="200" alt="" class="hidden-xs" />
+					<img src="{{ site.baseurl }}/img/MOFIE-logo.png" width="200" alt="" class="visible-xs" />
 				</a>
 
 			</div>
@@ -27,7 +27,53 @@
 			
 			<!-- main menu -->
 			<ul class="navbar-nav">
-				
+				<li>
+					<a href="{{ site.baseurl }}/RAILS">
+						<i class="linecons-cog"></i>RAILS
+					</a>
+					<ul>
+					    {% for post in site.categories.mocs %}
+					      <li>
+					        <a href="{{ site.baseurl }}{{ post.url }}">
+								<i class="linecons-cog"></i>
+								{{ post.title }}
+							</a>
+					      </li>
+					    {% endfor %}
+					</ul>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}/CHIPS">
+						<i class="linecons-cog"></i>CHIPS
+					</a>
+					<ul>
+					    {% for post in site.categories.mobi %}
+					      <li>
+					        <a href="{{ site.baseurl }}{{ post.url }}">
+								<i class="linecons-cog"></i>
+								{{ post.title }}
+							</a>
+					      </li>
+					    {% endfor %}
+					</ul>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}/MOPS">
+						<i class="linecons-cog"></i>MOPS
+					</a>
+					<ul>
+					    {% for post in site.categories.mops %}
+					      <li>
+					        <a href="{{ site.baseurl }}{{ post.url }}">
+								<i class="linecons-cog"></i>
+								{{ post.title }}
+							</a>
+					      </li>
+					    {% endfor %}
+					</ul>
+				</li>
+
+
 
 			</ul>
 		

@@ -21,9 +21,14 @@ layout: post
 			<script>
 			var xenonPalette = ['#68b828','#7c38bc','#0e62c7','#fcd036','#4fcdfc','#00b19d','#ff6264','#f7aa47'];
 			</script>
-			<div class="row">
-			    {{ content }}
-			</div>
+				<div class="row">
+					<div class="col-sm-12"> 
+						<div class="panel panel-default"> 
+							<div class="panel-heading"><a href="{{ page.link }}">{{ page.tag }}</a>
+							</div> 
+						</div>
+					</div>
+				</div>
 			
 			
 
@@ -106,6 +111,9 @@ layout: post
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
+				{{ content }}
 			</div>
 			
 			 {% endif %}

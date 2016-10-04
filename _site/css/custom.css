@@ -4,12 +4,27 @@
  *
 */
 
+@media screen and (min-width: 768px) {
+	.navbar.horizontal-menu.navbar-minimal {height: 65px; border-top: 15px solid #323a45; color: black;
+}
+
 body {	
+	background-color: #323a45;
+}
+
+.page-container .main-content { padding: 25px 25px;
+}
+.panel {
+
+    padding: 20px 30px;
+	margin-bottom: 15px;
 }
 
 a {
 }
-
+.xe-widget.xe-progress-counter.xe-progress-counter-red {
+    background-color: #760000;
+}
 .xe-widget.xe-progress-counter.xe-progress-counter-grey {background: #999999;}
 .xe-widget.xe-progress-counter.xe-progress-counter-grey .xe-upper {background: transparent;}
 .xe-widget.xe-counter.xe-counter-grey .xe-icon i {background: #999999; }
@@ -21,3 +36,7 @@ a.disable i {opacity: 50%;}
 .xe-widget.xe-counter-block .xe-lower, .xe-widget.xe-progress-counter .xe-lower {padding: 5px 30px;}
 .xe-widget.xe-counter-block .xe-lower strong, .xe-widget.xe-progress-counter .xe-lower strong { line-height: 40px;}
 .xe-widget.xe-progress-counter {min-height: 150px;}
+.bg-info {
+    background-color: purple;
+	font-family: "Merriweather";
+}

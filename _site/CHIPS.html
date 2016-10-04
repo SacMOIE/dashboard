@@ -7,8 +7,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Drought &#8211; City of Sacramento Mayoral Dashboard</title>
-    <meta name="description" content="The Mayor&#39;s Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.">
+    <title>CHIPS: Company 1 &#8211; City of Sacramento Mayoral Dashboard</title>
+    <meta name="description" content="The Mayor's Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.">
     <meta name="author" content="">
 	
 
@@ -50,8 +50,8 @@
 			<!-- Navbar Brand -->
 			<div class="navbar-brand">
 				<a href="/dashboard" class="logo">
-					<img src="/dashboard/img/logo.png" width="150" alt="" class="hidden-xs" />
-					<img src="/dashboard/img/logo.png" width="150" alt="" class="visible-xs" />
+					<img src="/dashboard/img/MOFIE-logo.png" width="200" alt="" class="hidden-xs" />
+					<img src="/dashboard/img/MOFIE-logo.png" width="200" alt="" class="visible-xs" />
 				</a>
 
 			</div>
@@ -72,7 +72,32 @@
 			
 			<!-- main menu -->
 			<ul class="navbar-nav">
-				
+				<li>
+					<a href="/dashboard/RAILS">
+						<i class="linecons-cog"></i>RAILS
+					</a>
+					<ul>
+					    
+					</ul>
+				</li>
+				<li>
+					<a href="/dashboard/CHIPS">
+						<i class="linecons-cog"></i>CHIPS
+					</a>
+					<ul>
+					    
+					</ul>
+				</li>
+				<li>
+					<a href="/dashboard/MOPS">
+						<i class="linecons-cog"></i>MOPS
+					</a>
+					<ul>
+					    
+					</ul>
+				</li>
+
+
 
 			</ul>
 		
@@ -91,136 +116,25 @@
 		<!-- Adding class "collapsed" collapse sidebar root elements and show only icons. -->
 	
 		<div class="main-content">
-			<h1 class="bg-info">Drought</h1>
+			<h1 class="bg-info">CHIPS: Company 1</h1>
 			<script>
 			var xenonPalette = ['#68b828','#7c38bc','#0e62c7','#fcd036','#4fcdfc','#00b19d','#ff6264','#f7aa47'];
 			</script>
-			<div class="row">
-			    
-<div class="panel panel-default">
-	<div class="panel-body">
-		<div class="col-sm-12">
-							
-			<script type="text/javascript">
-			jQuery(document).ready(function($)
-			{
-				if( ! $.isFunction($.fn.dxChart))
-					return;
-				var dataSource = [
-					{month: 'June', waittime: 51320.9},
-					{month: 'July', waittime: 263203.36},
-					{month: 'August', waittime: 96585},
-					{month: 'September', waittime: 402304.5},
-					{month: 'October', waittime: 361487.45},
-					{month: 'November', waittime: 126889.7},
-					{month: 'December', waittime: 293050.25},
-					{month: 'January', waittime: 585796},
-					{month: 'February', waittime: 1513650.78},
-					{month: 'March', waittime: 1114476},
-					{month: 'April', waittime: 1268884},
-				];
-				$("#bar-7").dxChart({
-					dataSource: dataSource,
-					commonSeriesSettings: {
-						argumentField: "month"
-					},
-					series: [
-						{ valueField: "waittime", name: "Sq. Ft. of Turf Replaced ", color: "#7c38bc" },
-					],
-					argumentAxis:{
-						grid:{
-							visible: true
-						}
-					},
-					tooltip:{
-						enabled: true
-					},
-					title: "Sq. Ft. of Turf Replaced ",
-					legend: {
-						verticalAlignment: "bottom",
-						horizontalAlignment: "center"
-					},
-					commonPaneSettings: {
-						border:{
-							visible: true,
-							right: false
-						}
-					}
-				});
-			});
-			</script>
-			<div id="bar-7" style="height: 250px; width: 100%;"></div>
-		</div>
-	</div>
-</div>	
-</div>												
-<div class="row">
-<a name="datavisitors"></a>
-<div class="panel panel-default">
-	<div class="panel-body">
-		<div class="col-sm-12">
-							
-			<script type="text/javascript">
-			jQuery(document).ready(function($)
-			{
-				if( ! $.isFunction($.fn.dxChart))
-					return;
-				var dataSource = [
-					{month: 'June', waittime: 99359.8},
-					{month: 'July', waittime: 489518.32},
-					{month: 'August', waittime: 189535},
-					{month: 'September', waittime: 918331.1},
-					{month: 'October', waittime: 877858.66},
-					{month: 'November', waittime: 330033.1},
-					{month: 'December', waittime: 833731.75},
-					{month: 'January', waittime: 1634509},
-					{month: 'February', waittime: 4510961.61},
-					{month: 'March', waittime: 3580279},
-					{month: 'April', waittime: 4121885},
-				];
-				$("#bar-8").dxChart({
-					dataSource: dataSource,
-					commonSeriesSettings: {
-						argumentField: "month"
-					},
-					series: [
-						{ valueField: "waittime", name: "Incentives Paid for Turf Removal", color: "#7c38bc" },
-					],
-					argumentAxis:{
-						grid:{
-							visible: true
-						}
-					},
-					tooltip:{
-						enabled: true
-					},
-					title: "Incentives Paid for Turf Removal",
-					legend: {
-						verticalAlignment: "bottom",
-						horizontalAlignment: "center"
-					},
-					commonPaneSettings: {
-						border:{
-							visible: true,
-							right: false
-						}
-					}
-				});
-			});
-			</script>
-			<div id="bar-8" style="height: 250px; width: 100%;"></div>
-		</div>
-	</div>
-</div>
-
-			</div>
+				<div class="row">
+					<div class="col-sm-12"> 
+						<div class="panel panel-default"> 
+							<div class="panel-heading"><a href=""></a>
+							</div> 
+						</div>
+					</div>
+				</div>
 			
 			
 
 
 			<script type="text/javascript">
 			document.addEventListener('DOMContentLoaded', function() {
-				var URL = "1zoVJzh9fStAUUSb9vLX8kTocb8GL7FHisJryCgANgog"
+				var URL = "1G4mXSg_eO5MB9bi3Kg7iQE22kW1x32GL-9Dl38PCQB4"
 				Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true, } )
 			})
 				
