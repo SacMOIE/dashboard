@@ -10,6 +10,7 @@
 
 body {	
 	background-color: #323a45;
+	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 }
 
 .page-container .main-content { padding: 25px 25px;
@@ -40,3 +41,68 @@ a.disable i {opacity: 50%;}
     background-color: purple;
 	font-family: "Merriweather";
 }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../css/fonts/merriweather-bold-webfont.eot');
+  src: url('../css/fonts/merriweather-bold-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/merriweather-bold-webfont.woff2) format("woff2"),url(../css/fonts/merriweather-bold-webfont.woff) format("woff"),url(../css/fonts/merriweather-bold-webfont.ttf) format("truetype"),url(../css/fonts/merriweather-bold-webfont.svg#merriweatherbold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../css/fonts/merriweather-regular-webfont.eot');
+  src: url('../css/fonts/merriweather-regular-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/merriweather-regular-webfont.woff2) format("woff2"),url(../css/fonts/merriweather-regular-webfont.woff) format("woff"),url(../css/fonts/merriweather-regular-webfont.ttf) format("truetype"),url(../css/fonts/merriweather-regular-webfont.svg#merriweatherregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../css/fonts/sourcesanspro-regular-webfont.eot');
+  src: url('../css/fonts/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/sourcesanspro-regular-webfont.woff2) format("woff2"),url(../css/fonts/sourcesanspro-regular-webfont.woff) format("woff"),url(../css/fonts/sourcesanspro-regular-webfont.ttf) format("truetype"),url(../css/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../css/fonts/sourcesanspro-semibold-webfont.eot');
+  src: url('../css/fonts/sourcesanspro-semibold-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/sourcesanspro-semibold-webfont.woff2) format("woff2"),url(../css/fonts/sourcesanspro-semibold-webfont.woff) format("woff"),url(../css/fonts/sourcesanspro-semibold-webfont.ttf) format("truetype"),url(../css/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold) format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../css/fonts/merriweather-bold-webfont.eot');
+  src: url('../css/fonts/merriweather-bold-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/merriweather-bold-webfont.woff2) format("woff2"),url(../css/fonts/merriweather-bold-webfont.woff) format("woff"),url(../css/fonts/merriweather-bold-webfont.ttf) format("truetype"),url(../css/fonts/merriweather-bold-webfont.svg#merriweatherbold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../css/fonts/merriweather-regular-webfont.eot');
+  src: url('../css/fonts/merriweather-regular-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/merriweather-regular-webfont.woff2) format("woff2"),url(../css/fonts/merriweather-regular-webfont.woff) format("woff"),url(../css/fonts/merriweather-regular-webfont.ttf) format("truetype"),url(../css/fonts/merriweather-regular-webfont.svg#merriweatherregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../css/fonts/sourcesanspro-regular-webfont.eot');
+  src: url('../css/fonts/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/sourcesanspro-regular-webfont.woff2) format("woff2"),url(../css/fonts/sourcesanspro-regular-webfont.woff) format("woff"),url(../css/fonts/sourcesanspro-regular-webfont.ttf) format("truetype"),url(../css/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../css/fonts/sourcesanspro-semibold-webfont.eot');
+  src: url('../css/fonts/sourcesanspro-semibold-webfont.eot?#iefix') format("embedded-opentype"),url(../css/fonts/sourcesanspro-semibold-webfont.woff2) format("woff2"),url(../css/fonts/sourcesanspro-semibold-webfont.woff) format("woff"),url(../css/fonts/sourcesanspro-semibold-webfont.ttf) format("truetype"),url(../css/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold) format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+

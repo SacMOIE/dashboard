@@ -5,21 +5,21 @@
     <description>The Mayor's Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.</description>
     <link>http://sacmoie.github.io/dashboard//dashboard/</link>
     <atom:link href="http://sacmoie.github.io/dashboard//dashboard/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2016 00:57:29 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2016 00:57:29 -0500</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2016 01:41:05 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2016 01:41:05 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>RAILS Example</title>
+        <title>Large Handron Particle Accelerator</title>
         <description></description>
         <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
         <link>http://sacmoie.github.io/dashboard//dashboard/RAILS</link>
         <guid isPermaLink="true">http://sacmoie.github.io/dashboard//dashboard/RAILS</guid>
         
-        <category>Improving the region's technical workforce</category>
+        <category>Something of a big bang, you might say. We bring things together at fantastical speeds. And fantastic things happen.</category>
         
         
-        <category>mayor</category>
+        <category>RAILS</category>
         
       </item>
     
