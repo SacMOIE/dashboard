@@ -1,30 +1,69 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>City of Sacramento Mayoral Dashboard</title>
+    <description>The Mayor's Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.</description>
+    <link>http://sacmoie.github.io/dashboard//dashboard/</link>
+    <atom:link href="http://sacmoie.github.io/dashboard//dashboard/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Oct 2016 12:13:56 -0500</pubDate>
+    <lastBuildDate>Thu, 06 Oct 2016 12:13:56 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Large Handron Particle Accelerator</title>
+        <description></description>
+        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <link>http://sacmoie.github.io/dashboard//dashboard/RAILS-EXAMPLE</link>
+        <guid isPermaLink="true">http://sacmoie.github.io/dashboard//dashboard/RAILS-EXAMPLE</guid>
+        
+        <category>Something of a big bang, you might say. We bring things together at fantastical speeds. And fantastic things happen.</category>
+        
+        
+        <category>RAILS</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>CHIPS: Company 1</title>
+        <description></description>
+        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <link>http://sacmoie.github.io/dashboard//dashboard/CHIPS</link>
+        <guid isPermaLink="true">http://sacmoie.github.io/dashboard//dashboard/CHIPS</guid>
+        
+        
+        <category>CHIPS</category>
+        
+      </item>
+    
+      <item>
+        <title>RAILS Overview</title>
+        <description></description>
+        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <link>http://sacmoie.github.io/dashboard//dashboard/RAILS</link>
+        <guid isPermaLink="true">http://sacmoie.github.io/dashboard//dashboard/RAILS</guid>
+        
+        <category>Supporting Startup Enablers</category>
+        
+        
+        <category>RAILS</category>
+        
+        <category>Overview</category>
+        
+      </item>
+    
+      <item>
+        <title>CHIPS</title>
+        <description></description>
+        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <link>http://sacmoie.github.io/dashboard//dashboard/CHIPS</link>
+        <guid isPermaLink="true">http://sacmoie.github.io/dashboard//dashboard/CHIPS</guid>
+        
+        
+        <category>CHIPS</category>
+        
+        <category>Overview</category>
+        
+      </item>
+    
   </channel>
 </rss>
